@@ -10,7 +10,7 @@ from TemporaryStorage.providers import File
 
 class TemporaryStorageInstance:
     def __init__(self):
-        self.logger = logging.getLogger('TempStorage')
+        self.logger = logging.getLogger('TemporaryStorage')
         self.providers: List[providers.Provider] = []
 
         for provider in providers.ALL_PROVIDERS:

@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='TemporaryStorage',
-    version='2022.01.23.2',
+    version='2022.01.23.3',
     packages=find_packages(),
     url='https://github.com/ulbwazhine/TemporaryStorage',
     license='MIT',
