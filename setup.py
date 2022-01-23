@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='TempStorage',
-    version='2022.01.23.1',
+    name='TemporaryStorage',
+    version='2022.01.23.2',
     packages=find_packages(),
-    url='https://github.com/ulbwazhine/TempStorage',
+    url='https://github.com/ulbwazhine/TemporaryStorage',
     license='MIT',
     author='Ulbwazhine',
     author_email='ulbwa@icloud.com',

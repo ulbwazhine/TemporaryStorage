@@ -3,15 +3,15 @@ import requests
 
 from dataclasses import dataclass
 from typing import Optional
-from TempStorage.providers import Provider, File
+from TemporaryStorage.providers import Provider, File
 
 
 @dataclass
 class ProviderInstance(Provider):
     def __provider_init__(self):
-        self.provider = 'cockfile'
-        self.max_file_size = 2048
-        self.base_url = 'https://cockfile.com'
+        self.provider = 'qu.ax'
+        self.max_file_size = 100
+        self.base_url = 'https://qu.ax'
 
     @staticmethod
     def calc_retention_date(file: File) -> datetime:

@@ -4,19 +4,20 @@ import random
 
 from importlib import import_module
 from typing import List, Optional
-from TempStorage import providers
-from TempStorage.providers import File
+from TemporaryStorage import providers
+from TemporaryStorage.providers import File
 
 
-class TempStorageInstance:
+class TemporaryStorageInstance:
     def __init__(self):
         self.logger = logging.getLogger('TempStorage')
         self.providers: List[providers.Provider] = []
 
         for provider in providers.ALL_PROVIDERS:
             self.providers.append(getattr(
-                import_module(name='TempStorage.providers.' + provider,
-                              package='TempStorage.providers.' + provider + '.ProviderInstance'), 'ProviderInstance')())
+                import_module(name='TemporaryStorage.providers.' + provider,
+                              package='TemporaryStorage.providers.' + provider + '.ProviderInstance'),
+                'ProviderInstance')())
 
     def __create_providers_list__(self) -> str:
         output = list()

@@ -1,8 +1,8 @@
-from TempStorage import TempStorageInstance
+from TemporaryStorage import TemporaryStorageInstance
 
 
 def main():
-    storage = TempStorageInstance()
+    storage = TemporaryStorageInstance()
     print(storage.upload(input('Enter path to file: ')).url)
 
 

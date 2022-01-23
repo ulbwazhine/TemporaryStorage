@@ -1,25 +1,25 @@
 <div align="center">
-  <h1>TempStorage</h1>
+  <h1>TemporaryStorage</h1>
   <p>
-    <img src="https://img.shields.io/pypi/dm/TempStorage">
-    <img src="https://img.shields.io/pypi/v/TempStorage?label=version">
-    <img src="https://img.shields.io/pypi/l/TempStorage">
-    <img src="https://img.shields.io/github/repo-size/ulbwazhine/TempStorage">
+    <img src="https://img.shields.io/pypi/dm/TemporaryStorage">
+    <img src="https://img.shields.io/pypi/v/TemporaryStorage?label=version">
+    <img src="https://img.shields.io/pypi/l/TemporaryStorage">
+    <img src="https://img.shields.io/github/repo-size/ulbwazhine/TemporaryStorage">
   </p>
   <p>A simple library for temporary storage of small files.</p>
 </div>
 
 ## Navigation
-* [Install](https://github.com/ulbwazhine/TempStorage#install)
-* [Usage](https://github.com/ulbwazhine/TempStorage#usage)
-  * [In Python console](https://github.com/ulbwazhine/TempStorage#in-python-console)
-  * [As a standalone application](https://github.com/ulbwazhine/TempStorage#as-a-standalone-application)
-* [List of supported providers](https://github.com/ulbwazhine/TempStorage#list-of-supported-providers)
-* [Links](https://github.com/ulbwazhine/TempStorage#links)
+* [Install](https://github.com/ulbwazhine/TemporaryStorage#install)
+* [Usage](https://github.com/ulbwazhine/TemporaryStorage#usage)
+  * [In Python console](https://github.com/ulbwazhine/TemporaryStorage#in-python-console)
+  * [As a standalone application](https://github.com/ulbwazhine/TemporaryStorage#as-a-standalone-application)
+* [List of supported providers](https://github.com/ulbwazhine/TemporaryStorage#list-of-supported-providers)
+* [Links](https://github.com/ulbwazhine/TemporaryStorage#links)
 
 ## Install
 ```
-$ python -m pip install TempStorage
+$ python -m pip install TemporaryStorage
 ```
 
 ## Usage
@@ -27,9 +27,9 @@ $ python -m pip install TempStorage
 #### In Python console:
 
 ```python
-from TempStorage import TempStorageInstance
+from TemporaryStorage import TemporaryStorageInstance
 
-storage = TempStorageInstance()
+storage = TemporaryStorageInstance()
 
 storage.upload('/path/to/file')
 ```
@@ -40,7 +40,7 @@ storage.upload('/path/to/file')
 
 #### As a standalone application:
 ```
-$ python -m TempStorage
+$ python -m TemporaryStorage
 ```
 
 ## List of supported providers
@@ -57,11 +57,11 @@ Full list of all currently supported providers
 * [uguu.se](https://uguu.se) [up to 100 MB]
 * [x0.at](https://x0.at) [up to 1024 MB]
 
-You can help the project by adding support for new providers by contributing on [GitHub](https://github.com/ulbwazhine/TempStorage).
+You can help the project by adding support for new providers by contributing on [GitHub](https://github.com/ulbwazhine/TemporaryStorage).
 
 ## Links
 * [Author](https://ulbwa.github.io)
-* [GitHub](https://github.com/ulbwazhine/TempStorage)
-* [PyPI](https://pypi.org/project/TempStorage)
+* [GitHub](https://github.com/ulbwazhine/TemporaryStorage)
+* [PyPI](https://pypi.org/project/TemporaryStorage)
 * [Donate](https://ulbwa.github.io/go?to=donate)
 

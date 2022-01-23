@@ -3,7 +3,7 @@ import requests
 
 from dataclasses import dataclass
 from typing import Optional
-from TempStorage.providers import Provider, File
+from TemporaryStorage.providers import Provider, File
 
 
 @dataclass
