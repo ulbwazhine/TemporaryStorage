@@ -17,6 +17,17 @@
 * [List of supported providers](https://github.com/ulbwazhine/TemporaryStorage#list-of-supported-providers)
 * [Links](https://github.com/ulbwazhine/TemporaryStorage#links)
 
+## Warning
+TemporaryStorage is not a platform for:
+
+* Piracy
+* Pornography and cruelty content
+* Malware
+* Storing personal information
+* Anything illegal under Russian law
+
+Using TemporaryStorage, you agree to the terms of [all listed resources](https://github.com/ulbwazhine/TemporaryStorage#list-of-supported-providers).
+
 ## Install
 ```
 $ python -m pip install TemporaryStorage
@@ -45,7 +56,7 @@ $ python -m TemporaryStorage
 
 ## List of supported providers
 
-Full list of all currently supported providers
+Full list of all currently supported providers:
 
 * [0x0.st](http://0x0.st) [up to 512 MB]
 * [cockfile](https://cockfile.com) [up to 2048 MB]
