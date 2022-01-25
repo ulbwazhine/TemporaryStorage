@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/pypi/l/TemporaryStorage">
     <img src="https://img.shields.io/github/repo-size/ulbwazhine/TemporaryStorage">
   </p>
-  <p>An simple library for temporary storage of small files.</p>
+  <p>A simple library for temporary storage of small files.</p>
 </div>
 
 ## Navigation
