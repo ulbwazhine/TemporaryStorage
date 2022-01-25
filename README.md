@@ -11,6 +11,7 @@
 
 ## Navigation
 * [Install](https://github.com/ulbwazhine/TemporaryStorage#install)
+  * [Update](https://github.com/ulbwazhine/TemporaryStorage#update)
 * [Usage](https://github.com/ulbwazhine/TemporaryStorage#usage)
   * [In Python console](https://github.com/ulbwazhine/TemporaryStorage#in-python-console)
   * [As a standalone application](https://github.com/ulbwazhine/TemporaryStorage#as-a-standalone-application)
@@ -30,7 +31,12 @@ Using TemporaryStorage, you agree to the terms of [all listed resources](https:/
 
 ## Install
 ```
-$ python -m pip install TemporaryStorage
+$ python3 -m pip install TemporaryStorage
+```
+
+### Update
+```console
+$ python3 -m pip install TemporaryStorage --upgrade
 ```
 
 ## Usage
