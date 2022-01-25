@@ -1,8 +1,8 @@
 import os
 
 from dataclasses import dataclass, field
-from pathlib import Path
 from datetime import datetime
+from pathlib import Path
 from typing import Optional
 
 providers_path = os.path.join("/".join(os.path.dirname(os.path.abspath(__file__)).split('/')[:-1]), 'providers')
@@ -22,25 +22,27 @@ def default_factory_none() -> None:
     return None
 
 
-def default_factory_false() -> bool:
-    return False
+@dataclass(frozen=False)
+class File:
+    name: str = field()
+    path: str = field()
+    file_size: float = field()
 
 
 @dataclass(frozen=False)
-class File:
-    provider: Optional[str] = field(default_factory=default_factory_none)
-    name: Optional[str] = field(default_factory=default_factory_none)
-    path: Optional[str] = field(default_factory=default_factory_none)
-    url: Optional[str] = field(default_factory=default_factory_none)
-    file_size: Optional[float] = field(default_factory=default_factory_none)
-    retention_to: Optional[datetime] = field(default_factory=default_factory_none)
+class HostedFile:
+    provider: str = field()
+    url: str = field()
+    retention_to: Optional[datetime] = field()
 
 
 @dataclass(frozen=False)
 class Provider:
-    provider: str = field(default_factory=str)
-    max_file_size: int = field(default_factory=int)
-    base_url: str = field(default_factory=str)
+    provider: str = field(default_factory=default_factory_none)
+    max_file_size: Optional[int] = field(default_factory=default_factory_none)
+    min_retention: Optional[int] = field(default_factory=default_factory_none)
+    max_retention: Optional[int] = field(default_factory=default_factory_none)
+    base_url: str = field(default_factory=default_factory_none)
 
     def __post_init__(self):
         getattr(self, '__provider_init__')()

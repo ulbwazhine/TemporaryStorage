@@ -58,21 +58,22 @@ $ python -m TemporaryStorage
 
 Full list of all currently supported providers:
 
-* [0x0.st](http://0x0.st) [up to 512 MB]
-* [cockfile](https://cockfile.com) [up to 2048 MB]
-* [FileDitch](https://fileditch.com) [up to 15360 MB]
-* [oshi.at](https://oshi.at) [up to 5000 MB]
-* [pomf.lain.la](https://pomf.lain.la) [up to 512 MB]
-* [qu.ax](https://qu.ax) [up to 100 MB]
-* [transfer.sh](https://transfer.sh) [up to 15360 MB]
-* [uguu.se](https://uguu.se) [up to 100 MB]
-* [x0.at](https://x0.at) [up to 1024 MB]
+| Provider | File size | Retention period |
+| :---: | :---: | :---: |
+| [0x0.st](http://0x0.st) | Up to 512 MB | From 30 to 365 days |
+| [cockfile~](https://cockfile.com) | Up to 2048 MB | 2 days |
+| [FileDitch](https://fileditch.com) | Up to 15360 MB | Unlimited |
+| [oshi.at](https://oshi.at) | Up to 5000 MB | From 7 to 90 days |
+| [pomf.lain.la](https://pomf.lain.la) | Up to 512 MB | Unlimited |
+| [qu.ax](https://qu.ax) | Up to 100 MB | Unlimited |
+| [transfer.sh](https://transfer.sh) | Unlimited | 14 days |
+| [uguu.se](https://uguu.se) | Up to 100 MB | 2 days |
+| [x0.at](https://x0.at) | Up to 1024 MB | From 10 to 360 days |
 
 You can help the project by adding support for new providers by contributing on [GitHub](https://github.com/ulbwazhine/TemporaryStorage).
 
 ## Links
-* [Author](https://ulbwa.github.io)
-* [GitHub](https://github.com/ulbwazhine/TemporaryStorage)
-* [PyPI](https://pypi.org/project/TemporaryStorage)
-* [Donate](https://ulbwa.github.io/go?to=donate)
-
+[<img src="https://raw.githubusercontent.com/ulbwa/ulbwa/main/static/badges/author.svg" height="30"/>](https://ulbwa.github.io)
+[<img src="https://raw.githubusercontent.com/ulbwa/ulbwa/main/static/badges/github.svg" height="30"/>](https://github.com/ulbwazhine/TemporaryStorage)
+[<img src="https://raw.githubusercontent.com/ulbwa/ulbwa/main/static/badges/pypi.svg" height="30"/>](https://pypi.org/project/TemporaryStorage)
+[<img src="https://raw.githubusercontent.com/ulbwa/ulbwa/main/static/badges/donate.svg" height="30"/>](https://ulbwa.github.io/go?to=donate)
