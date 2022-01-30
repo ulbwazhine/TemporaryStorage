@@ -72,6 +72,7 @@ Full list of all currently supported providers:
 | [oshi.at](https://oshi.at) | Up to 5000 MB | From 7 to 90 days |
 | [pomf.lain.la](https://pomf.lain.la) | Up to 512 MB | Unlimited |
 | [qu.ax](https://qu.ax) | Up to 100 MB | Unlimited |
+| [Telegraph](https://telegra.ph) | Up to 50 MB | Unlimited |
 | [transfer.sh](https://transfer.sh) | Unlimited | 14 days |
 | [uguu.se](https://uguu.se) | Up to 100 MB | 2 days |
 | [x0.at](https://x0.at) | Up to 1024 MB | From 10 to 360 days |
