@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
-providers_path = os.path.join(*os.path.dirname(os.path.abspath(__file__)).split('/')[:-1], 'providers')
+providers_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'providers')
 
 
 def __list_all_providers():
