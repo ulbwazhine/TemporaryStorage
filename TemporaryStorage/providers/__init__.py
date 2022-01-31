@@ -5,13 +5,13 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
-providers_path = os.path.join("/".join(os.path.dirname(os.path.abspath(__file__)).split('/')[:-1]), 'providers')
+providers_path = os.path.join(*os.path.dirname(os.path.abspath(__file__)).split('/')[:-1], 'providers')
 
 
 def __list_all_providers():
-    all_templates = [x.name for x in Path(providers_path).iterdir()
+    all_providers = [x.name for x in Path(providers_path).iterdir()
                      if x.is_dir() and not str(x).startswith('__') and not str(x).endswith('__')]
-    return all_templates
+    return all_providers
 
 
 ALL_PROVIDERS = sorted(__list_all_providers())
